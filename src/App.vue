@@ -17,8 +17,10 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
-html {
-  background-color: rgb(223, 223, 223);
+
+body {
+  background-color: rgb(245, 245, 245);
+  margin: 0;
 }
 #app {
   font-family: "Roboto light", sans-serif;

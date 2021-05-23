@@ -38,6 +38,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.presentation {
+  height: auto;
+}
 .img--rounded {
   border-radius: 50%;
   border: 1px solid #333333;
@@ -56,7 +59,8 @@ export default {
   width: 410px;
 }
 .title {
-  margin-top: 60px;
+  margin: 0;
+  padding-top: 60px;
   margin-bottom: 40px;
   font-family: Roboto;
   font-style: normal;
