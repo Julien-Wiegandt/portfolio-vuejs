@@ -12,17 +12,17 @@
 
       <div class="text">
         <p>
-          Je me présente ! Julien Wiegandt enchanté, je suis un élève ingénieur
-          en 4ème année à Polytech en Informatique.
+          Je me présente ! Julien Wiegandt enchanté, je suis un élève ingénieur en 4ème
+          année à Polytech en Informatique.
         </p>
         <p>
-          Je me passionne pour le developpement web, je me spécialise donc de
-          plus en plus vers la fonction de developpeur FullStack.
+          Je me passionne pour le developpement web, je me spécialise donc de plus en plus
+          vers la fonction de developpeur FullStack.
         </p>
         <p>
-          J’adore travailler, le sport et les voyages. J’ai habité en Allemagne,
-          à Tahiti, en Nouvelle-Calédonie, au Congo, maintenant en France et en
-          préparation pour le Canada !
+          J’adore travailler, le sport et les voyages. J’ai habité en Allemagne, à Tahiti,
+          en Nouvelle-Calédonie, au Congo, maintenant en France et en préparation pour le
+          Canada !
         </p>
       </div>
     </div>
@@ -32,7 +32,6 @@
 <script>
 export default {
   name: "Presentation",
-  props: {},
 };
 </script>
 

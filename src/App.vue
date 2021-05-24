@@ -1,16 +1,19 @@
 <template>
   <div class="body">
     <Presentation />
+    <Projects />
   </div>
 </template>
 
 <script>
 import Presentation from "./components/Presentation.vue";
+import Projects from "./components/Projects";
 
 export default {
   name: "App",
   components: {
     Presentation,
+    Projects,
   },
 };
 </script>
@@ -19,7 +22,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
 body {
-  background-color: rgb(245, 245, 245);
+  background-color: #2c3e50;
   margin: 0;
 }
 #app {
