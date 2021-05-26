@@ -64,13 +64,14 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
 .card__text__title {
   margin-top: 95%;
-  font-size: x-large;
+  text-transform: uppercase;
+  font-size: larger;
   font-family: "Roboto";
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .card:hover .card__text__title {
@@ -95,7 +96,7 @@ p {
   transition-duration: 0.4s;
   font-size: small;
   font-family: "Roboto";
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @keyframes card_img_animation {
@@ -105,7 +106,7 @@ p {
     -webkit-transform: scale(1);
   }
   to {
-    opacity: 0.7;
+    opacity: 0.6;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
   }
