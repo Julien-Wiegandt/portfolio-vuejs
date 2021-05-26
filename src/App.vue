@@ -2,18 +2,21 @@
   <div class="body">
     <Presentation />
     <Projects />
+    <Experience />
   </div>
 </template>
 
 <script>
 import Presentation from "./components/Presentation.vue";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 
 export default {
   name: "App",
   components: {
     Presentation,
     Projects,
+    Experience,
   },
 };
 </script>

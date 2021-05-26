@@ -1,47 +1,34 @@
-<template>
-  <div class="projects">
-    <div class="title">
-      <img src="../assets/projects.png" alt="projects title" />
-    </div>
-    <div class="content">
-      <div class="column__left">
-        <ProjectCard
-          title="Todo JEE"
-          description="To Do liste très simple, qui m’a permis de toucher au developpement JEE."
-          image="project-1.jpg"
-        />
-        <ProjectCard
-          title="Todo JEE"
-          description="To Do liste très simple, qui m’a permis de toucher au developpement JEE."
-          image="project-1.jpg"
-        />
+<template
+  ><a href="https://www.codein.fr/nos-realisations" :style="marginStyle" class="card">
+    <img :src="require(`@/assets/${image}`)" alt="project 1" />
+    <div class="card__text">
+      <div class="card__text__title">
+        <p>{{ title }}</p>
       </div>
-      <div class="column__center">
-        <ProjectCard
-          title="Todo JEE"
-          description="To Do liste très simple, qui m’a permis de toucher au developpement JEE."
-          image="project-1.jpg"
-          margin-top="120"
-        />
-      </div>
-      <div class="column__right">
-        <ProjectCard
-          title="Todo JEE"
-          description="To Do liste très simple, qui m’a permis de toucher au developpement JEE."
-          image="project-1.jpg"
-        />
+      <div class="card__text__description">
+        <p>
+          {{ description }}
+        </p>
       </div>
     </div>
-  </div>
+  </a>
 </template>
 
 <script>
-import ProjectCard from "./ProjectCard";
-
 export default {
-  name: "Projects",
-  components: {
-    ProjectCard,
+  name: "ProjectCard",
+  props: {
+    title: { default: "Title" },
+    description: { default: "Description" },
+    image: {},
+    marginTop: { type: Number, default: 40 },
+  },
+  computed: {
+    marginStyle() {
+      return {
+        "margin-top": `${this.marginTop}px`,
+      };
+    },
   },
 };
 </script>
@@ -50,30 +37,7 @@ export default {
 p {
   margin: 0;
 }
-.projects {
-  margin-top: 50px;
-}
-.title {
-  background: #f7f7f7;
-}
 
-.title img {
-  width: 700px;
-}
-.content {
-  display: flex;
-  width: auto;
-  justify-content: space-evenly;
-}
-.column__left {
-  width: 30%;
-}
-.column__center {
-  width: 30%;
-}
-.column__right {
-  width: 30%;
-}
 .card {
   display: block;
   width: auto;
@@ -86,9 +50,6 @@ p {
   overflow: hidden;
 }
 
-#card__center__first {
-  margin-top: 120px;
-}
 .card img {
   width: 200px;
   animation-name: card_img_animation-reverse;
