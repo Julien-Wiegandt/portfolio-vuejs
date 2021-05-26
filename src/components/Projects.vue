@@ -6,29 +6,24 @@
     <div class="content">
       <div class="column__left">
         <ProjectCard
-          title="Todo JEE"
-          description="To Do liste très simple, qui m’a permis de toucher au developpement JEE."
-          image="project-1.jpg"
-        />
-        <ProjectCard
-          title="Todo JEE"
-          description="To Do liste très simple, qui m’a permis de toucher au developpement JEE."
-          image="project-1.jpg"
+          title="Todo React"
+          description="Simple To Do list in React Redux connected to a DNSP Backend API."
+          image="project-todo-react-redux.png"
         />
       </div>
       <div class="column__center">
         <ProjectCard
-          title="Todo JEE"
-          description="To Do liste très simple, qui m’a permis de toucher au developpement JEE."
-          image="project-1.jpg"
+          title="Todo Angular"
+          description="Simple To Do list in Angular connected to the DNESP Backend API."
+          image="project-todo-angular.png"
           margin-top="120"
         />
       </div>
       <div class="column__right">
         <ProjectCard
-          title="Todo JEE"
-          description="To Do liste très simple, qui m’a permis de toucher au developpement JEE."
-          image="project-1.jpg"
+          title="Todo DNSP"
+          description="Simple To Do backend API using Docker - Node - Express - Sequelize - PostGres."
+          image="project-todo-dnsp.png"
         />
       </div>
     </div>
