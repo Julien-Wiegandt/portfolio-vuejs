@@ -82,4 +82,46 @@ img {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .experience-card {
+    height: 150px;
+  }
+  .title {
+    font-size: smaller;
+  }
+  .info {
+    font-size: smaller;
+  }
+  .description {
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: small;
+  }
+  .info {
+    font-size: small;
+  }
+  .description {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .experience-card {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  img {
+    /* padding-top: 10px; */
+    margin-top: 10px !important;
+    margin-left: 10px;
+  }
+}
 </style>

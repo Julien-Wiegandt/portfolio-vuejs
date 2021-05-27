@@ -136,4 +136,43 @@ p {
     margin: 0;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .card__text__title {
+    font-size: medium;
+  }
+  .card__text__description {
+    font-size: x-small;
+  }
+  .project-card:hover .card__text__title {
+    margin-top: 85%;
+    transition-duration: 0.4s;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-card:hover .card__text__title {
+    margin-top: 70%;
+    transition-duration: 0.4s;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card__text__title {
+    margin-top: 90%;
+  }
+  .project-card:hover .card__text__title {
+    margin-top: 30%;
+    transition-duration: 0.4s;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .card__text__title {
+    font-size: small;
+  }
+  .card__text__description {
+    font-size: xx-small;
+  }
+}
 </style>

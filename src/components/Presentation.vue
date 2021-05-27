@@ -60,6 +60,7 @@ p {
 }
 .text {
   width: 410px;
+  padding: 10px;
 }
 .title {
   margin: 0;
@@ -69,5 +70,22 @@ p {
   font-style: normal;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+  p {
+    padding: 10px;
+    font-size: small;
+  }
 }
 </style>

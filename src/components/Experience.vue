@@ -75,4 +75,10 @@ export default {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .line {
+    width: 100%;
+  }
+}
 </style>
