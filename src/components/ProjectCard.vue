@@ -1,6 +1,6 @@
 <template
-  ><a href="https://www.codein.fr/nos-realisations" :style="marginStyle" class="card">
-    <img :src="require(`@/assets/${image}`)" alt="project 1" />
+  ><a :href="link" :style="marginStyle" class="project-card">
+    <img :src="require(`@/assets/${image}`)" alt="project image" />
     <div class="card__text">
       <div class="card__text__title">
         <p>{{ title }}</p>
@@ -18,10 +18,11 @@
 export default {
   name: "ProjectCard",
   props: {
-    title: { default: "Title" },
-    description: { default: "Description" },
-    image: {},
-    marginTop: { type: Number, default: 40 },
+    title: { type: String, required: true, default: "Title" },
+    description: { type: String, required: true, default: "Description" },
+    image: { type: String, required: false },
+    marginTop: { type: Number, required: true, default: 40 },
+    link: { type: String, required: true },
   },
   computed: {
     marginStyle() {
@@ -38,10 +39,10 @@ p {
   margin: 0;
 }
 
-.card {
+.project-card {
   display: block;
-  width: auto;
-  height: 282.359px;
+  width: 250px;
+  height: 350px;
   margin: 9px;
   margin-top: 40px;
   text-decoration: none;
@@ -50,8 +51,11 @@ p {
   overflow: hidden;
 }
 
-.card img {
-  width: 200px;
+.project-card img {
+  /* width: 200px; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   animation-name: card_img_animation-reverse;
   animation-duration: 0.4s;
 }
@@ -67,30 +71,30 @@ p {
   color: rgb(255, 255, 255);
 }
 .card__text__title {
-  margin-top: 95%;
+  margin-top: 105%;
   text-transform: uppercase;
   font-size: larger;
   font-family: "Roboto";
   font-weight: 500;
 }
 
-.card:hover .card__text__title {
-  margin-top: 85%;
+.project-card:hover .card__text__title {
+  margin-top: 95%;
   transition-duration: 0.4s;
 }
-.card:hover .card__text__description {
+.project-card:hover .card__text__description {
   display: block;
   transition-duration: 0.4s;
 }
 
-.card:hover img {
+.project-card:hover img {
   animation-name: card_img_animation;
   animation-duration: 0.4s;
   animation-fill-mode: forwards;
 }
 
 .card__text__description {
-  margin-top: 5%;
+  margin-top: 3%;
   padding: 10px;
   display: none;
   transition-duration: 0.4s;
@@ -114,7 +118,7 @@ p {
 
 @keyframes card_img_animation-reverse {
   from {
-    opacity: 0.7;
+    opacity: 0.6;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
   }

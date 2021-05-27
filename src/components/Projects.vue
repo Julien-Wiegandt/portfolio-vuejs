@@ -9,6 +9,7 @@
           title="Todo React"
           description="Simple To Do list in React Redux connected to a DNSP Backend API."
           image="project-todo-react-redux.png"
+          link="https://github.com/Julien-Wiegandt/todo-react-redux"
         />
       </div>
       <div class="column__center">
@@ -17,6 +18,7 @@
           description="Simple To Do list in Angular connected to the DNESP Backend API."
           image="project-todo-angular.png"
           margin-top="120"
+          link="https://github.com/Julien-Wiegandt/todo-angular"
         />
       </div>
       <div class="column__right">
@@ -24,6 +26,7 @@
           title="Todo DNSP"
           description="Simple To Do backend API using Docker - Node - Express - Sequelize - PostGres."
           image="project-todo-dnsp.png"
+          link="https://github.com/Julien-Wiegandt/todo-dnsp"
         />
       </div>
     </div>
