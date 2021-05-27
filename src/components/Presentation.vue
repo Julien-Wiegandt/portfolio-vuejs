@@ -6,7 +6,12 @@
         <img
           src="../assets/photo_cv_png.png"
           alt="Julien Wiegandt's photography"
-          class="img--rounded"
+          class="img-pro img--rounded"
+        />
+        <img
+          src="../assets/photo-fun-3.jpg"
+          alt="Julien Wiegandt's photography"
+          class="img-fun img--rounded"
         />
       </div>
 
@@ -53,6 +58,17 @@ p {
 .img {
   display: flex;
   align-items: center;
+  position: relative;
+}
+.img-pro {
+  opacity: 1;
+  transition: opacity 0.75s ease;
+}
+
+.img-fun {
+  opacity: 0;
+  transition: opacity 0.75s ease;
+  position: absolute;
 }
 .content {
   display: flex;
@@ -70,6 +86,16 @@ p {
   font-style: normal;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+.img:hover .img-pro {
+  opacity: 0;
+  transition: opacity 0.75s ease;
+}
+
+.img:hover .img-fun {
+  opacity: 1;
+  transition: opacity 0.75s ease;
 }
 
 @media screen and (max-width: 500px) {
