@@ -20,4 +20,10 @@ export default {
 .title img {
   width: 700px;
 }
+
+@media screen and (max-width: 900px) {
+  .title img {
+    width: 100%;
+  }
+}
 </style>

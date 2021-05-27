@@ -52,12 +52,12 @@ p {
 }
 
 .project-card img {
-  /* width: 200px; */
   width: 100%;
   height: 100%;
   object-fit: cover;
   animation-name: card_img_animation-reverse;
   animation-duration: 0.4s;
+  vertical-align: middle;
 }
 .card__text {
   position: absolute;
@@ -126,6 +126,14 @@ p {
     opacity: 1;
     transform: scale(1);
     -webkit-transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .project-card {
+    width: 100%;
+    height: auto;
+    margin: 0;
   }
 }
 </style>

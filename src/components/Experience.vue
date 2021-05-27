@@ -69,4 +69,10 @@ export default {
   height: 1px;
   background-color: #b1b1b1;
 }
+
+@media screen and (max-width: 900px) {
+  .title img {
+    width: 100%;
+  }
+}
 </style>

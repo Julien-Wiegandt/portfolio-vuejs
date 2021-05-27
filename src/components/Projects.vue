@@ -160,4 +160,10 @@ p {
     -webkit-transform: scale(1);
   }
 }
+
+@media screen and (max-width: 900px) {
+  .title img {
+    width: 100%;
+  }
+}
 </style>

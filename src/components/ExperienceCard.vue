@@ -76,4 +76,10 @@ img {
   font-family: "Roboto";
   font-weight: 400;
 }
+
+@media screen and (max-width: 700px) {
+  .experience-card {
+    width: 100%;
+  }
+}
 </style>

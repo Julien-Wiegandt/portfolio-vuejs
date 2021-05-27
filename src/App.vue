@@ -28,7 +28,6 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
 body {
-  background-color: #f0f0f0;
   animation: background-color-animation;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -58,6 +57,12 @@ body {
   }
   100% {
     background-color: rgb(105, 162, 226);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .body {
+    width: 100%;
   }
 }
 </style>
