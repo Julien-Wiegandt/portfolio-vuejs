@@ -52,7 +52,7 @@ export default {
 }
 .content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .text {
   width: 410px;
