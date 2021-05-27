@@ -15,7 +15,7 @@
       <div class="column__center">
         <ProjectCard
           title="Todo Angular"
-          description="Simple To Do list in Angular connected to the DNESP Backend API."
+          description="Simple To Do list in Angular connected to the DNSP Backend API."
           image="project-todo-angular.png"
           margin-top="120"
           link="https://github.com/Julien-Wiegandt/todo-angular"

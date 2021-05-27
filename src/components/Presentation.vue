@@ -16,7 +16,7 @@
           année à Polytech en Informatique.
         </p>
         <p>
-          Je me passionne pour le developpement web, je me spécialise donc de plus en plus
+          Je me passionne pour le developpement web, et me spécialise donc de plus en plus
           vers la fonction de developpeur FullStack.
         </p>
         <p>
