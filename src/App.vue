@@ -3,6 +3,7 @@
     <Presentation />
     <Projects />
     <Experience />
+    <WorkInProgress />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Presentation from "./components/Presentation.vue";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import WorkInProgress from "./components/WorkInProgress";
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     Presentation,
     Projects,
     Experience,
+    WorkInProgress,
   },
 };
 </script>
@@ -25,7 +28,10 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
 body {
-  background-color: #2c3e50;
+  background-color: #f0f0f0;
+  animation: background-color-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
   margin: 0;
 }
 #app {
@@ -41,5 +47,17 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
+}
+
+@keyframes background-color-animation {
+  0% {
+    background-color: rgb(105, 162, 226);
+  }
+  50% {
+    background-color: rgb(214, 86, 86);
+  }
+  100% {
+    background-color: rgb(105, 162, 226);
+  }
 }
 </style>
