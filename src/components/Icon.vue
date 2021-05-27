@@ -18,4 +18,13 @@ export default {
 img {
   height: 40px;
 }
+
+.icon:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.icon:active img {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+}
 </style>
