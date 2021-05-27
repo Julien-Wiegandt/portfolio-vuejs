@@ -53,7 +53,6 @@ footer {
 img {
   width: auto;
   height: 100%;
-  position: relative;
 }
 
 .icons {
