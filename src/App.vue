@@ -4,6 +4,7 @@
     <Projects />
     <Experience />
     <WorkInProgress />
+    <Footer />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Presentation from "./components/Presentation.vue";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import WorkInProgress from "./components/WorkInProgress";
+import Footer from "./components/Footer";
 
 export default {
   name: "App",
@@ -20,6 +22,7 @@ export default {
     Projects,
     Experience,
     WorkInProgress,
+    Footer,
   },
 };
 </script>

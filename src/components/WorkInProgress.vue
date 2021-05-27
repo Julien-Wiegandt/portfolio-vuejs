@@ -15,6 +15,7 @@ export default {
 <style scoped>
 .title {
   background: #f7f7f7;
+  margin-bottom: 40px;
 }
 
 .title img {
