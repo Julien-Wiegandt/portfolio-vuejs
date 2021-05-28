@@ -47,17 +47,6 @@ export default {
 </script>
 
 <style scoped>
-.experience {
-  margin-top: 50px;
-}
-.title {
-  background: #f7f7f7;
-}
-
-.title img {
-  width: 700px;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -68,12 +57,6 @@ export default {
   width: 400px;
   height: 1px;
   background-color: #b1b1b1;
-}
-
-@media screen and (max-width: 900px) {
-  .title img {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 400px) {

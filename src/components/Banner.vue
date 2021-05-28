@@ -18,7 +18,7 @@ export default {
 <style scoped>
 .banner {
   background: #f7f7f7;
-  margin-bottom: 40px;
+  margin: 40px 0 40px 0;
   height: 200px;
   display: flex;
   width: 100%;
@@ -40,7 +40,7 @@ export default {
   .banner {
     height: 150px;
   }
-  .title {
+  .banner__title {
     font-size: x-large;
   }
 }
@@ -48,9 +48,10 @@ export default {
 @media screen and (max-width: 400px) {
   .banner {
     height: 100px;
+    margin: 40px 0 10px 0;
   }
-  .title {
-    font-size: medium;
+  .banner__title {
+    font-size: large;
   }
 }
 </style>

@@ -165,6 +165,9 @@ p {
     margin-top: 30%;
     transition-duration: 0.4s;
   }
+  .project-card {
+    /* margin-top: 0px !important; */
+  }
 }
 
 @media screen and (max-width: 350px) {
