@@ -15,10 +15,7 @@
         image="icon-linkedin.png"
         link="https://www.linkedin.com/in/julien-wiegandt/"
       />
-      <Icon
-        image="icon-maps.png"
-        link="https://maps.google.com/?q=43.6112422, 3.8767337"
-      />
+      <Icon image="icon-maps.png" link="https://www.google.com/maps/place/Montpellier/" />
     </div>
   </footer>
 </template>
