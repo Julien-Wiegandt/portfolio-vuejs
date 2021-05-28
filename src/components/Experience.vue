@@ -1,8 +1,6 @@
 <template>
   <div class="experience">
-    <div class="title">
-      <img src="../assets/experience.png" alt="experience title" />
-    </div>
+    <Banner title="Expérience" image="experience.png" />
     <div class="content">
       <ExperienceCard
         image="experience-agence-regionale-de-sante.png"
@@ -36,12 +34,14 @@
 </template>
 
 <script>
+import Banner from "./Banner";
 import ExperienceCard from "./ExperienceCard";
 
 export default {
   name: "Experience",
   components: {
     ExperienceCard,
+    Banner,
   },
 };
 </script>

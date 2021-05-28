@@ -1,15 +1,17 @@
 <template>
-  <div class="work-in-progress">
-    <div class="banner">
-      <p class="title">Work In Progress</p>
-      <img src="../assets/work-in-progress.png" alt="experience image" />
-    </div>
+  <div class="banner">
+    <p class="banner__title">{{ title }}</p>
+    <img :src="require(`@/assets/${image}`)" alt="banner image" />
   </div>
 </template>
 
 <script>
 export default {
   name: "Banner",
+  props: {
+    title: { type: String, required: true },
+    image: { type: String, required: true },
+  },
 };
 </script>
 
@@ -21,7 +23,7 @@ export default {
   display: flex;
   width: 100%;
 }
-.title {
+.banner__title {
   font-family: "Roboto";
   font-weight: 100;
   font-size: xx-large;

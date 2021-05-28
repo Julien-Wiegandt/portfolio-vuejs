@@ -1,8 +1,6 @@
 <template>
   <div class="projects">
-    <div class="title">
-      <img src="../assets/projects.png" alt="projects title" />
-    </div>
+    <Banner title="Projets" image="projects.png" />
     <div class="content">
       <div class="column__left">
         <ProjectCard
@@ -35,11 +33,13 @@
 
 <script>
 import ProjectCard from "./ProjectCard";
+import Banner from "./Banner";
 
 export default {
   name: "Projects",
   components: {
     ProjectCard,
+    Banner,
   },
 };
 </script>

@@ -3,7 +3,7 @@
     <Presentation />
     <Projects />
     <Experience />
-    <WorkInProgress />
+    <Banner title="Work In Progress" image="work-in-progress.png" />
     <Footer />
   </div>
 </template>
@@ -12,7 +12,7 @@
 import Presentation from "./components/Presentation.vue";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
-import WorkInProgress from "./components/WorkInProgress";
+import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 
 export default {
@@ -21,7 +21,7 @@ export default {
     Presentation,
     Projects,
     Experience,
-    WorkInProgress,
+    Banner,
     Footer,
   },
 };
