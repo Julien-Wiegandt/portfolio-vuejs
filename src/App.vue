@@ -3,7 +3,8 @@
     <Presentation />
     <Projects />
     <Experience />
-    <Banner title="Work In Progress" image="work-in-progress.png" />
+    <Education />
+    <!-- <Banner title="Work In Progress" image="work-in-progress.png" /> -->
     <Footer />
   </div>
 </template>
@@ -12,8 +13,9 @@
 import Presentation from "./components/Presentation.vue";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
-import Banner from "./components/Banner";
+// import Banner from "./components/Banner";
 import Footer from "./components/Footer";
+import Education from "./components/Education";
 
 export default {
   name: "App",
@@ -21,8 +23,9 @@ export default {
     Presentation,
     Projects,
     Experience,
-    Banner,
+    // Banner,
     Footer,
+    Education,
   },
 };
 </script>
