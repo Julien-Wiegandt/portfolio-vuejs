@@ -37,7 +37,8 @@ export default {
 .education-card {
   background: #f7f7f7;
   width: 500px;
-  height: 400px;
+  min-height: 400px;
+  height: auto;
   margin: 40px;
 }
 
@@ -91,10 +92,27 @@ export default {
 
 .footer {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .link {
   color: rgb(0, 132, 255);
   text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  .education-card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .education-card-title {
+    font-size: large;
+    margin: 0 auto 0 auto;
+  }
+
+  .education-card-img {
+    margin: 20px 20px 20px 20px;
+  }
 }
 </style>
