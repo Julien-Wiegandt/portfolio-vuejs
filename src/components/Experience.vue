@@ -3,6 +3,15 @@
     <Banner title="Expérience" image="experience.png" />
     <div class="content">
       <ExperienceCard
+        image="experience-codein.png"
+        title="Développeur Frontend React"
+        company="Codéin - Stage"
+        date="Juin 2021 - 3 mois"
+        location="Montpellier, Occitanie, France"
+        description="Developpeur frontend React sur le projet de refonte complète du frontend de l'entreprise oppbtp."
+      />
+      <span class="line" />
+      <ExperienceCard
         image="experience-agence-regionale-de-sante.png"
         title="Responsable d’un numéro vert"
         company="Agence régionale de santé - Auxiliaire de vacance"
