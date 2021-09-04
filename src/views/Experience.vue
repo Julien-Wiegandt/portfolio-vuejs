@@ -43,8 +43,8 @@
 </template>
 
 <script>
-import Banner from "./Banner";
-import ExperienceCard from "./ExperienceCard";
+import Banner from "../components/Banner";
+import ExperienceCard from "../components/ExperienceCard";
 
 export default {
   name: "Experience",

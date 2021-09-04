@@ -32,8 +32,8 @@
 </template>
 
 <script>
-import ProjectCard from "./ProjectCard";
-import Banner from "./Banner";
+import ProjectCard from "../components/ProjectCard";
+import Banner from "../components/Banner";
 
 export default {
   name: "Projects",
