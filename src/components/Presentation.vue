@@ -17,12 +17,12 @@
 
       <div class="text">
         <p>
-          Je me présente ! Julien Wiegandt enchanté, je suis un élève ingénieur en 4ème
+          Je me présente ! Julien Wiegandt enchanté, je suis un élève ingénieur en 5ème
           année à Polytech en Informatique.
         </p>
         <p>
-          Je me passionne pour le developpement web, et me spécialise donc de plus en plus
-          vers la fonction de developpeur FullStack.
+          Je me passionne pour le développement web, et me spécialise donc de plus en plus
+          vers la fonction de développeur FullStack.
         </p>
         <p>
           J’adore travailler, le sport et les voyages. J’ai habité en Allemagne, à Tahiti,
