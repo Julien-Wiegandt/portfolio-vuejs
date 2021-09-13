@@ -8,7 +8,7 @@
         company="Codéin - Stage"
         date="Juin 2021 - 3 mois"
         location="Montpellier, Occitanie, France"
-        description="Developpeur frontend React sur le projet de refonte complète du frontend de l'entreprise oppbtp."
+        description="Développeur frontend React sur le projet de refonte complète du frontend de l'entreprise OPPBTP."
       />
       <span class="line" />
       <ExperienceCard
