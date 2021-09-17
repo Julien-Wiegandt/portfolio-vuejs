@@ -14,10 +14,10 @@
       <ExperienceCard
         image="experience-agence-regionale-de-sante.png"
         title="Responsable d’un numéro vert"
-        company="Agence régionale de santé - Auxiliaire de vacance"
+        company="Agence régionale de santé - Auxiliaire d'été"
         date="Juillet 2019 - 1 mois"
         location="Montpellier, Occitanie, France"
-        description="Responsable d’un numéro vert concernant des taux d’arsenic élevé dans l’Aude."
+        description="Responsable d’un numéro vert concernant des taux d’arsenic élevés dans l’Aude."
       />
       <span class="line" />
       <ExperienceCard
@@ -33,7 +33,7 @@
       <ExperienceCard
         image="experience-societe-generale.png"
         title="Auxiliaire de vacance"
-        company="Société Générale - Job dété"
+        company="Société Générale - Auxiliaire d'été"
         date="Juillet 2019 - 1 mois"
         location="Montpellier, Occitanie, France"
         description="Prise en charge des clients en irrégularités, vérification de documents juridiques."
