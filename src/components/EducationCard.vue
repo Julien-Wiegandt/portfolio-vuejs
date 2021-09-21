@@ -14,7 +14,7 @@
       <p class="description">{{ description }}</p>
     </div>
     <div class="footer">
-      <a :href="link" class="link">Détails sur ma formation</a>
+      <a :href="link" class="link">Education details</a>
     </div>
   </div>
 </template>

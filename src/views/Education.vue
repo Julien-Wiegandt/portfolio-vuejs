@@ -25,7 +25,7 @@
         image="formation-iut-blagnac.png"
         diploma="Associate's Degree in Computer Science & Management"
         date="2017-2019"
-        description="I learned the main programming languages by participating in many team projects, I was admitted in 'English class' which allowed me to follow some courses in English."
+        description="I learned the main programming languages by participating in many team projects. I was admitted in 'English class' which allowed me to follow some courses in English."
         link="https://www.iut-blagnac.fr/fr/formations/dut-informatique"
       />
     </div>
