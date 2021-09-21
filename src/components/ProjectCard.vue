@@ -98,7 +98,7 @@ p {
   padding: 10px;
   display: none;
   transition-duration: 0.4s;
-  font-size: small;
+  font-size: 14px;
   font-family: "Roboto";
   font-weight: 400;
 }

@@ -1,21 +1,22 @@
 <template>
   <div class="body">
     <Presentation />
+    <Education />
     <Projects />
     <Experience />
-    <Education />
+
     <!-- <Banner title="Work In Progress" image="work-in-progress.png" /> -->
     <Footer />
   </div>
 </template>
 
 <script>
-import Presentation from "./components/Presentation.vue";
-import Projects from "./components/Projects";
-import Experience from "./components/Experience";
-// import Banner from "./components/Banner";
-import Footer from "./components/Footer";
-import Education from "./components/Education";
+import Presentation from "./views/Presentation.vue";
+import Projects from "./views/Projects";
+import Experience from "./views/Experience";
+// import Banner from "./views/Banner";
+import Footer from "./views/Footer";
+import Education from "./views/Education";
 
 export default {
   name: "App",

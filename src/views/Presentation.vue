@@ -17,17 +17,18 @@
 
       <div class="text">
         <p>
-          Je me présente ! Julien Wiegandt enchanté, je suis un élève ingénieur en 5ème
-          année à Polytech en Informatique.
+          Let me introduce myself! Julien Wiegandt pleased to meet you, I am a student
+          engineer in 5th year at Polytech Montpellier, France, in Computer Science and
+          Management. I'm also currently doing a master's degree in software engineering
+          at the University of Sherbrooke, Canada.
         </p>
         <p>
-          Je me passionne pour le développement web, et me spécialise donc de plus en plus
-          vers la fonction de développeur FullStack.
+          I am passionate about projects on beautiful digital tools. That's why I'm very
+          interested in web/mobile development, UX/UI design and project management.
         </p>
         <p>
-          J’adore travailler, le sport et les voyages. J’ai habité en Allemagne, à Tahiti,
-          en Nouvelle-Calédonie, au Congo, maintenant en France et en préparation pour le
-          Canada !
+          I love working, sports and traveling. I have lived in Germany, Tahiti, New
+          Caledonia, Congo, France and now Canada!
         </p>
       </div>
     </div>
