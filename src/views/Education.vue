@@ -7,7 +7,7 @@
         image="formation-universite-sherbrooke-2.jpg"
         diploma="Master's Degree in Software Engineering"
         date="2021-2022"
-        description="I am doing a double degree in Sherbrooke, Canada. I am deepening my knowledge in software engineering to specialize in this field. This international experience is a great opportunity to discover the culture, the work in companies and the beautiful Canadian landscapes."
+        description="I am doing a double degree in Sherbrooke, Canada. I am deepening my knowledge of software engineering in order specialize in this field. This international experience is a great opportunity to discover the culture, the work in companies and the beautiful Canadian landscapes."
         link="https://www.usherbrooke.ca/admission/programme/651/maitrise-en-genie-logiciel"
       />
       <img src="../assets/icon-arrow-up.png" />
@@ -23,9 +23,9 @@
       <EducationCard
         title="Blagnac University Institute of Technology"
         image="formation-iut-blagnac.png"
-        diploma="Associate's Degree in Computer Science & Management"
+        diploma="Associate Degree in Computer Science & Management"
         date="2017-2019"
-        description="I learned the main programming languages by participating in many team projects. I was admitted in 'English class' which allowed me to follow some courses in English."
+        description="I learned the main programming languages by participating in many team projects. I was admitted in 'English class' which allowed me to take some courses in English."
         link="https://www.iut-blagnac.fr/fr/formations/dut-informatique"
       />
     </div>

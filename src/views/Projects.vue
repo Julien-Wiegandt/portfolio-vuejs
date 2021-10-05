@@ -18,11 +18,11 @@
       </div>
       <div class="column__center">
         <ProjectCard
-          title="Todo React Redux"
-          description="In progress..."
+          title="Todo React"
+          description="React frontend application using my todo list REST API."
           image="project-todo-react-redux.png"
           margin-top="120"
-          link="#"
+          link="https://wiegandt-todo-node-react.herokuapp.com/"
         />
       </div>
       <div class="column__right">

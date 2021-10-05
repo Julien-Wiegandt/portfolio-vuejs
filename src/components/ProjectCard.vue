@@ -1,5 +1,5 @@
 <template
-  ><a :href="link" :style="marginStyle" class="project-card">
+  ><a :href="link" :style="marginStyle" class="project-card" target="_blank">
     <img :src="require(`@/assets/${image}`)" alt="project image" />
     <div class="card__text">
       <div class="card__text__title">
