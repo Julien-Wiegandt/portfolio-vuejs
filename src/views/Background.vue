@@ -134,7 +134,7 @@ export default {
     transform: scale(1) translateY(0) rotate(10deg);
   }
   100% {
-    transform: scale(1) translateY(-5050px) rotate(800deg);
+    transform: scale(1) translateY(-5200px) rotate(800deg);
   }
 }
 </style>
