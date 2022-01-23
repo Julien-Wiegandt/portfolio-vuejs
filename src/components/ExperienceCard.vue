@@ -42,6 +42,8 @@ export default {
   margin: 40px;
   display: flex;
   justify-content: space-around;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 img {
@@ -79,13 +81,14 @@ img {
 
 @media screen and (max-width: 700px) {
   .experience-card {
-    width: 100%;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 500px) {
   .experience-card {
     height: 150px;
+    width: 96%;
   }
   .title {
     font-size: smaller;
@@ -110,7 +113,7 @@ img {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   .experience-card {
     height: fit-content;
     display: flex;

@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .banner {
-  background: #f7f7f7;
+  /* background: #f7f7f7; */
   margin: 40px 0 40px 0;
   height: 200px;
   display: flex;
@@ -36,7 +36,7 @@ export default {
   margin: auto 22% auto 5%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .banner {
     height: 150px;
   }

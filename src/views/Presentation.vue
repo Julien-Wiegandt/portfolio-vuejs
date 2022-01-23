@@ -4,7 +4,7 @@
     <div class="content">
       <div class="img">
         <img
-          src="../assets/photo_cv_png.png"
+          src="../assets/cv_image.jpg"
           alt="Julien Wiegandt's photography"
           class="img-pro img--rounded"
         />
@@ -52,7 +52,7 @@ p {
 }
 .img--rounded {
   border-radius: 50%;
-  border: 1px solid #333333;
+  border: 1px solid #f7f7f7;
   background-color: #fff;
   width: 200px;
   height: 200px;

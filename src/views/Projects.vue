@@ -75,4 +75,22 @@ p {
 .column__right {
   width: 30%;
 }
+@media screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+    align-content: center;
+  }
+  .column__left {
+    width: 80%;
+    margin: auto;
+  }
+  .column__center {
+    width: 80%;
+    margin: auto;
+  }
+  .column__right {
+    width: 80%;
+    margin: auto;
+  }
+}
 </style>

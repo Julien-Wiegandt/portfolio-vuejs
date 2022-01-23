@@ -44,7 +44,7 @@ export default {
 footer {
   width: 100%;
   height: 200px;
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   display: flex;
   justify-content: space-around;
 }

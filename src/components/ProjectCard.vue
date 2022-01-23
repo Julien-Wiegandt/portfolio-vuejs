@@ -1,5 +1,10 @@
-<template
-  ><a :href="link" :style="marginStyle" class="project-card" target="_blank">
+<template>
+  <a
+    :href="link"
+    class="project-card"
+    v-bind:class="{ marginTop: marginTop }"
+    target="_blank"
+  >
     <img :src="require(`@/assets/${image}`)" alt="project image" />
     <div class="card__text">
       <div class="card__text__title">
@@ -21,15 +26,8 @@ export default {
     title: { type: String, required: true, default: "Title" },
     description: { type: String, required: true, default: "Description" },
     image: { type: String, required: false },
-    marginTop: { type: Number, required: true, default: 40 },
+    marginTop: { type: Boolean, required: true, default: false },
     link: { type: String, required: true },
-  },
-  computed: {
-    marginStyle() {
-      return {
-        "margin-top": `${this.marginTop}px`,
-      };
-    },
   },
 };
 </script>
@@ -49,6 +47,10 @@ p {
   background-color: rgb(0, 0, 0);
   position: relative;
   overflow: hidden;
+}
+
+.marginTop {
+  margin-top: 120px;
 }
 
 .project-card img {
@@ -135,49 +137,70 @@ p {
   .project-card {
     width: 100%;
     height: auto;
-    margin: 0;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .card__text__title {
-    font-size: medium;
+    font-size: large;
   }
   .card__text__description {
-    font-size: x-small;
+    font-size: small;
   }
+}
+
+@media screen and (max-width: 700px) {
   .project-card:hover .card__text__title {
     margin-top: 85%;
     transition-duration: 0.4s;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .card__text__title {
+    font-size: xx-large;
+  }
+  .card__text__description {
+    font-size: large;
+  }
+  .project-card:hover .card__text__title {
+    margin-top: 95%;
+    transition-duration: 0.4s;
+  }
+  .marginTop {
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .project-card:hover .card__text__title {
-    margin-top: 70%;
+    margin-top: 95%;
     transition-duration: 0.4s;
   }
 }
 
 @media screen and (max-width: 400px) {
   .card__text__title {
+    font-size: x-large;
+  }
+  .card__text__description {
+    font-size: medium;
+  }
+  .card__text__title {
     margin-top: 90%;
   }
   .project-card:hover .card__text__title {
-    margin-top: 30%;
+    margin-top: 95%;
     transition-duration: 0.4s;
-  }
-  .project-card {
-    /* margin-top: 0px !important; */
   }
 }
 
 @media screen and (max-width: 350px) {
   .card__text__title {
-    font-size: small;
+    font-size: x-large;
   }
   .card__text__description {
-    font-size: xx-small;
+    font-size: medium;
   }
 }
 </style>

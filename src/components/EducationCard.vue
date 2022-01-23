@@ -40,6 +40,8 @@ export default {
   min-height: 400px;
   height: auto;
   margin: 40px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .education-card-header {
@@ -101,11 +103,14 @@ export default {
 }
 @media screen and (max-width: 500px) {
   .education-card {
-    width: 100%;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 400px) {
+  .education-card {
+    width: 96%;
+  }
   .education-card-title {
     font-size: large;
     margin: 0 auto 0 auto;
