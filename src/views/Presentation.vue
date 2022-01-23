@@ -53,6 +53,7 @@ p {
 .img--rounded {
   border-radius: 50%;
   border: 1px solid #333333;
+  background-color: #fff;
   width: 200px;
   height: 200px;
 }
