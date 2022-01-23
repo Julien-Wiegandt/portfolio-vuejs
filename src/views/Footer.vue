@@ -3,19 +3,33 @@
     <p class="title">Contact</p>
     <img src="../assets/contact.png" alt="contact image" />
     <div class="icons">
-      <Icon image="icon-email.png" link="mailto:julienwiegandt@gmail.com" />
-      <Icon image="icon-github.png" link="https://github.com/Julien-Wiegandt" />
+      <Icon image="3D_email.png" link="mailto:julienwiegandt@gmail.com" alt="Email" />
+      <Icon
+        image="icon-github.png"
+        link="https://github.com/Julien-Wiegandt"
+        alt="GitHub"
+      />
     </div>
     <div class="icons">
-      <Icon image="icon-phone.png" link="tel:+33634087380" />
-      <Icon image="icon-twitter.png" link="https://twitter.com/julien_wiegandt" />
+      <Icon image="3D_phone.png" link="tel:+33634087380" alt="Phone" />
+      <Icon
+        image="3D_twitter2.png"
+        link="https://twitter.com/julien_wiegandt"
+        alt="Twitter"
+      />
     </div>
     <div class="icons">
       <Icon
-        image="icon-linkedin.png"
+        image="3D_linkedin.png"
         link="https://www.linkedin.com/in/julien-wiegandt/"
+        alt="LinkedIn"
       />
-      <Icon image="icon-maps.png" link="https://www.google.com/maps/place/Montpellier/" />
+      <Icon
+        image="3D_document.png"
+        link="../assets/Julien_Wiegandt-resume.pdf"
+        alt="CV"
+        download="Julien_Wiegandt-resume.pdf"
+      />
     </div>
   </footer>
 </template>

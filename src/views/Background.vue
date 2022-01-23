@@ -1,22 +1,22 @@
 <template
   ><div class="dynamic-background">
-    <img src="../assets/3d-illustrations/3D_check.png" />
-    <img src="../assets/3d-illustrations/3D_spotify.png" />
-    <img src="../assets/3d-illustrations/3D_youtube.png" />
-    <img src="../assets/3d-illustrations/3D_google.png" />
-    <img src="../assets/3d-illustrations/3D_google2.png" />
-    <img src="../assets/3d-illustrations/3D_cloud.png" />
-    <img src="../assets/3d-illustrations/3D_colors.png" />
-    <img src="../assets/3d-illustrations/3D_connection.png" />
-    <img src="../assets/3d-illustrations/3D_folder3.png" />
-    <img src="../assets/3d-illustrations/3D_messenger2.png" />
-    <img src="../assets/3d-illustrations/3D_netflix.png" />
-    <img src="../assets/3d-illustrations/3D_slack.png" />
-    <img src="../assets/3d-illustrations/3D_sport.png" />
-    <img src="../assets/3d-illustrations/3D_twitter2.png" />
-    <img src="../assets/3d-illustrations/3D_uber2.png" />
-    <img src="../assets/3d-illustrations/3D_whatsapp.png" />
-    <img src="../assets/3d-illustrations/3D_youtube2.png" />
+    <img src="../assets/3D_check.png" />
+    <img src="../assets/3D_spotify.png" />
+    <img src="../assets/3D_youtube.png" />
+    <img src="../assets/3D_google.png" />
+    <img src="../assets/3D_google2.png" />
+    <img src="../assets/3D_cloud.png" />
+    <img src="../assets/3D_colors.png" />
+    <img src="../assets/3D_connection.png" />
+    <img src="../assets/3D_folder3.png" />
+    <img src="../assets/3D_messenger2.png" />
+    <img src="../assets/3D_netflix.png" />
+    <img src="../assets/3D_slack.png" />
+    <img src="../assets/3D_sport.png" />
+    <img src="../assets/3D_twitter2.png" />
+    <img src="../assets/3D_uber2.png" />
+    <img src="../assets/3D_whatsapp.png" />
+    <img src="../assets/3D_youtube2.png" />
   </div>
 </template>
 
@@ -134,7 +134,7 @@ export default {
     transform: scale(1) translateY(0) rotate(10deg);
   }
   100% {
-    transform: scale(1) translateY(-6500px) rotate(800deg);
+    transform: scale(1) translateY(-5050px) rotate(800deg);
   }
 }
 </style>

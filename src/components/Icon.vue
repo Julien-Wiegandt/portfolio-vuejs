@@ -1,6 +1,6 @@
 <template>
-  <a :href="link" class="icon">
-    <img :src="require(`@/assets/${image}`)" alt="icon image" />
+  <a :href="link" class="icon" :download="download">
+    <img :src="require(`@/assets/${image}`)" :alt="alt" />
   </a>
 </template>
 
@@ -10,13 +10,15 @@ export default {
   props: {
     image: { type: String, required: true },
     link: { type: String, required: true },
+    alt: { type: String },
+    download: { type: String },
   },
 };
 </script>
 
 <style scoped>
 img {
-  height: 40px;
+  height: 45px;
 }
 
 .icon:hover img {
