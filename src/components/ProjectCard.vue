@@ -76,11 +76,13 @@ p {
   font-size: larger;
   font-family: "Roboto";
   font-weight: 500;
+  color: transparent;
 }
 
 .project-card:hover .card__text__title {
   margin-top: 95%;
   transition-duration: 0.4s;
+  color: #ffffff;
 }
 .project-card:hover .card__text__description {
   display: block;

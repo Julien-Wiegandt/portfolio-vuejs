@@ -4,10 +4,25 @@
     <div class="content">
       <div class="column__left">
         <ProjectCard
-          title="Todo list API"
-          description="Node.js Express.js Sequelize PostgreSQL backend application providing secure REST API."
-          image="project-todo-nesp.png"
-          link="https://todo-node-express-postgresql.herokuapp.com/api-docs/"
+          title="Real Estate"
+          description="Android application to manage real estate offers. Based on our Node.js REST API and the Google Maps API."
+          image="project-realestate.png"
+          link="https://github.com/Julien-Wiegandt/RealEstate-android-app"
+        />
+        <ProjectCard
+          title="Split Pay"
+          description="Complex Java application to easily pay a bill with several people."
+          image="project-splitpay.png"
+          link="https://github.com/Julien-Wiegandt/SplitPay"
+        />
+      </div>
+      <div class="column__center">
+        <ProjectCard
+          title="To Do React"
+          description="React frontend application using my to do list REST API."
+          image="project-todo-react-redux.png"
+          margin-top="120"
+          link="https://wiegandt-todo-node-react.herokuapp.com/"
         />
         <ProjectCard
           title="Find BS"
@@ -16,21 +31,12 @@
           link="https://findbs.herokuapp.com/"
         />
       </div>
-      <div class="column__center">
-        <ProjectCard
-          title="Todo React"
-          description="React frontend application using my todo list REST API."
-          image="project-todo-react-redux.png"
-          margin-top="120"
-          link="https://wiegandt-todo-node-react.herokuapp.com/"
-        />
-      </div>
       <div class="column__right">
         <ProjectCard
-          title="Todo Angular"
-          description="In progress..."
-          image="project-todo-angular.png"
-          link="#"
+          title="To Do list API"
+          description="Node.js Express.js Sequelize PostgreSQL backend application providing secure REST API."
+          image="project-todo-nesp-api.png"
+          link="https://todo-node-express-postgresql.herokuapp.com/api-docs/"
         />
       </div>
     </div>
