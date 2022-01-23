@@ -1,7 +1,7 @@
 <template>
   <footer>
     <p class="title">Contact</p>
-    <img src="../assets/contact.png" alt="contact image" />
+    <img src="../assets/contact.png" alt="contact image" class="dsc__img" />
     <div class="icons">
       <a href="mailto:julienwiegandt@gmail.com" class="icon">
         <img src="../assets/3D_email.png" alt="Email" />
@@ -69,7 +69,7 @@ img {
 }
 
 @media screen and (max-width: 700px) {
-  img {
+  .dsc__img {
     display: none;
   }
 }
