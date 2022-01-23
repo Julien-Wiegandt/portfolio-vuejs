@@ -56,6 +56,7 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 900px) {

@@ -5,7 +5,7 @@
       <div class="column__left">
         <ProjectCard
           title="Real Estate"
-          description="Android application to manage real estate offers. Based on our Node.js REST API and the Google Maps API."
+          description="Android app to manage real estate offers. Based on our Node.js REST API and the Google Maps API."
           image="project-realestate.png"
           link="https://github.com/Julien-Wiegandt/RealEstate-android-app"
         />
@@ -33,8 +33,8 @@
       </div>
       <div class="column__right">
         <ProjectCard
-          title="To Do list API"
-          description="Node.js Express.js Sequelize PostgreSQL backend application providing secure REST API."
+          title="To Do API"
+          description="Node.js Sequelize PostgreSQL backend application providing secure REST API."
           image="project-todo-nesp-api.png"
           link="https://todo-node-express-postgresql.herokuapp.com/api-docs/"
         />

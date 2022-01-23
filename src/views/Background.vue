@@ -17,6 +17,8 @@
     <img src="../assets/3D_uber2.png" />
     <img src="../assets/3D_whatsapp.png" />
     <img src="../assets/3D_youtube2.png" />
+    <img src="../assets/3D_emoji.png" />
+    <img src="../assets/3D_chat1.png" />
   </div>
 </template>
 
@@ -61,7 +63,7 @@ export default {
 }
 .dynamic-background img:nth-child(4) {
   top: 100%;
-  left: 10%;
+  left: 15%;
   animation: animate 23s linear infinite;
 }
 .dynamic-background img:nth-child(5) {
@@ -76,62 +78,72 @@ export default {
 }
 .dynamic-background img:nth-child(7) {
   top: 100%;
+  left: 5%;
+  animation: animate 25.5s linear infinite;
+}
+.dynamic-background img:nth-child(8) {
+  top: 100%;
   left: 30%;
   animation: animate 26s linear infinite;
 }
-.dynamic-background img:nth-child(8) {
+.dynamic-background img:nth-child(9) {
   top: 100%;
   left: 90%;
   animation: animate 27s linear infinite;
 }
-.dynamic-background img:nth-child(9) {
-  top: 100%;
-  left: 60%;
-  animation: animate 28s linear infinite;
-}
 .dynamic-background img:nth-child(10) {
   top: 100%;
-  left: 10%;
-  animation: animate 29s linear infinite;
+  left: 65%;
+  animation: animate 28s linear infinite;
 }
 .dynamic-background img:nth-child(11) {
+  top: 100%;
+  left: 55%;
+  animation: animate 29s linear infinite;
+}
+.dynamic-background img:nth-child(12) {
   top: 100%;
   left: 40%;
   animation: animate 30s linear infinite;
 }
-.dynamic-background img:nth-child(12) {
+.dynamic-background img:nth-child(13) {
   top: 100%;
   left: 70%;
   animation: animate 31s linear infinite;
 }
-.dynamic-background img:nth-child(13) {
-  top: 100%;
-  left: 10%;
-  animation: animate 32s linear infinite;
-}
 .dynamic-background img:nth-child(14) {
   top: 100%;
-  left: 90%;
-  animation: animate 33s linear infinite;
+  left: 60%;
+  animation: animate 32s linear infinite;
 }
 .dynamic-background img:nth-child(15) {
+  top: 100%;
+  left: 94%;
+  animation: animate 33s linear infinite;
+}
+.dynamic-background img:nth-child(16) {
   top: 100%;
   left: 45%;
   animation: animate 34s linear infinite;
 }
-.dynamic-background img:nth-child(16) {
-  top: 100%;
-  left: 40%;
-  animation: animate 35s linear infinite;
-}
 .dynamic-background img:nth-child(17) {
   top: 100%;
-  left: 70%;
+  left: 25%;
+  animation: animate 35s linear infinite;
+}
+.dynamic-background img:nth-child(18) {
+  top: 100%;
+  left: 75%;
   animation: animate 36s linear infinite;
+}
+.dynamic-background img:nth-child(19) {
+  top: 100%;
+  left: 0%;
+  animation: animate 37s linear infinite;
 }
 @keyframes animate {
   0% {
-    transform: scale(1) translateY(0) rotate(10deg);
+    transform: scale(1) translateY(0) rotate(0deg);
   }
   100% {
     transform: scale(1) translateY(-5200px) rotate(800deg);

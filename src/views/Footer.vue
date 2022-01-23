@@ -3,43 +3,39 @@
     <p class="title">Contact</p>
     <img src="../assets/contact.png" alt="contact image" />
     <div class="icons">
-      <Icon image="3D_email.png" link="mailto:julienwiegandt@gmail.com" alt="Email" />
-      <Icon
-        image="icon-github.png"
-        link="https://github.com/Julien-Wiegandt"
-        alt="GitHub"
-      />
+      <a href="mailto:julienwiegandt@gmail.com" class="icon">
+        <img src="../assets/3D_email.png" alt="Email" />
+      </a>
+      <a href="https://github.com/Julien-Wiegandt" class="icon" target="_blank">
+        <img src="../assets/icon-github.png" alt="GitHub" />
+      </a>
     </div>
     <div class="icons">
-      <Icon image="3D_phone.png" link="tel:+33634087380" alt="Phone" />
-      <Icon
-        image="3D_twitter2.png"
-        link="https://twitter.com/julien_wiegandt"
-        alt="Twitter"
-      />
+      <a href="tel:+33634087380" class="icon">
+        <img src="../assets/3D_phone.png" alt="Phone" />
+      </a>
+      <a href="https://twitter.com/julien_wiegandt" class="icon" target="_blank">
+        <img src="../assets/3D_twitter2.png" alt="Twitter" />
+      </a>
     </div>
     <div class="icons">
-      <Icon
-        image="3D_linkedin.png"
-        link="https://www.linkedin.com/in/julien-wiegandt/"
-        alt="LinkedIn"
-      />
-      <Icon
-        image="3D_document.png"
-        link="../assets/Julien_Wiegandt-resume.pdf"
-        alt="CV"
-        download="Julien_Wiegandt-resume.pdf"
-      />
+      <a href="https://www.linkedin.com/in/julien-wiegandt/" class="icon" target="_blank">
+        <img src="../assets/3D_linkedin.png" alt="LinkedIn" />
+      </a>
+      <a :href="`${publicPath}Julien_Wiegandt-resume.pdf`" class="icon" download>
+        <img src="../assets/3D_document.png" alt="CV" />
+      </a>
     </div>
   </footer>
 </template>
 
 <script>
-import Icon from "../components/Icon";
 export default {
   name: "Footer",
-  components: {
-    Icon,
+  data() {
+    return {
+      publicPath: process.env.BASE_URL,
+    };
   },
 };
 </script>
@@ -82,5 +78,18 @@ img {
   .title {
     display: none;
   }
+}
+
+.icon img {
+  height: 45px;
+}
+
+.icon:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+.icon:active img {
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
 }
 </style>
