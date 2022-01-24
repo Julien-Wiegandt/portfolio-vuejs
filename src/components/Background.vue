@@ -39,114 +39,186 @@ export default {
 .dynamic-background img {
   height: 60px;
   width: 60px;
-  /* border: 2px solid rgba(51, 133, 255, 0.7); */
   border-radius: 50px;
   position: absolute;
   top: 10%;
   left: 10%;
-  animation: animate 4s linear infinite;
+  animation: animate5000 4s linear infinite;
 }
 .dynamic-background img:nth-child(1) {
   top: 100%;
   left: 20%;
-  animation: animate 20s linear infinite;
+  animation: animate5000 20s linear infinite;
 }
 .dynamic-background img:nth-child(2) {
   top: 100%;
   left: 85%;
-  animation: animate 21s linear infinite;
+  animation: animate5000 21s linear infinite;
 }
 .dynamic-background img:nth-child(3) {
   top: 100%;
   left: 60%;
-  animation: animate 22s linear infinite;
+  animation: animate5000 22s linear infinite;
 }
 .dynamic-background img:nth-child(4) {
   top: 100%;
   left: 15%;
-  animation: animate 23s linear infinite;
+  animation: animate5000 23s linear infinite;
 }
 .dynamic-background img:nth-child(5) {
   top: 100%;
   left: 50%;
-  animation: animate 24s linear infinite;
+  animation: animate5000 24s linear infinite;
 }
 .dynamic-background img:nth-child(6) {
   top: 100%;
   left: 80%;
-  animation: animate 25s linear infinite;
+  animation: animate5000 25s linear infinite;
 }
 .dynamic-background img:nth-child(7) {
   top: 100%;
   left: 5%;
-  animation: animate 25.5s linear infinite;
+  animation: animate5000 25.5s linear infinite;
 }
 .dynamic-background img:nth-child(8) {
   top: 100%;
   left: 30%;
-  animation: animate 26s linear infinite;
+  animation: animate5000 26s linear infinite;
 }
 .dynamic-background img:nth-child(9) {
   top: 100%;
   left: 90%;
-  animation: animate 27s linear infinite;
+  animation: animate5000 27s linear infinite;
 }
 .dynamic-background img:nth-child(10) {
   top: 100%;
   left: 65%;
-  animation: animate 28s linear infinite;
+  animation: animate5000 28s linear infinite;
 }
 .dynamic-background img:nth-child(11) {
   top: 100%;
   left: 55%;
-  animation: animate 29s linear infinite;
+  animation: animate5000 29s linear infinite;
 }
 .dynamic-background img:nth-child(12) {
   top: 100%;
   left: 40%;
-  animation: animate 30s linear infinite;
+  animation: animate5000 30s linear infinite;
 }
 .dynamic-background img:nth-child(13) {
   top: 100%;
   left: 70%;
-  animation: animate 31s linear infinite;
+  animation: animate5000 31s linear infinite;
 }
 .dynamic-background img:nth-child(14) {
   top: 100%;
   left: 60%;
-  animation: animate 32s linear infinite;
+  animation: animate5000 32s linear infinite;
 }
 .dynamic-background img:nth-child(15) {
   top: 100%;
   left: 94%;
-  animation: animate 33s linear infinite;
+  animation: animate5000 33s linear infinite;
 }
 .dynamic-background img:nth-child(16) {
   top: 100%;
   left: 45%;
-  animation: animate 34s linear infinite;
+  animation: animate5000 34s linear infinite;
 }
 .dynamic-background img:nth-child(17) {
   top: 100%;
   left: 25%;
-  animation: animate 35s linear infinite;
+  animation: animate5000 35s linear infinite;
 }
 .dynamic-background img:nth-child(18) {
   top: 100%;
   left: 75%;
-  animation: animate 36s linear infinite;
+  animation: animate5000 36s linear infinite;
 }
 .dynamic-background img:nth-child(19) {
   top: 100%;
   left: 0%;
-  animation: animate 37s linear infinite;
+  animation: animate5000 37s linear infinite;
 }
-@keyframes animate {
+
+@media screen and (max-width: 600px) {
+  .dynamic-background img {
+    animation: animate7000 4s linear infinite;
+  }
+  .dynamic-background img:nth-child(1) {
+    animation: animate7000 25s linear infinite;
+  }
+  .dynamic-background img:nth-child(2) {
+    animation: animate7000 26s linear infinite;
+  }
+  .dynamic-background img:nth-child(3) {
+    animation: animate7000 27s linear infinite;
+  }
+  .dynamic-background img:nth-child(4) {
+    animation: animate7000 28s linear infinite;
+  }
+  .dynamic-background img:nth-child(5) {
+    animation: animate7000 29s linear infinite;
+  }
+  .dynamic-background img:nth-child(6) {
+    animation: animate7000 30s linear infinite;
+  }
+  .dynamic-background img:nth-child(7) {
+    animation: animate7000 30.5s linear infinite;
+  }
+  .dynamic-background img:nth-child(8) {
+    animation: animate7000 31s linear infinite;
+  }
+  .dynamic-background img:nth-child(9) {
+    animation: animate7000 32s linear infinite;
+  }
+  .dynamic-background img:nth-child(10) {
+    animation: animate7000 33s linear infinite;
+  }
+  .dynamic-background img:nth-child(11) {
+    animation: animate7000 34s linear infinite;
+  }
+  .dynamic-background img:nth-child(12) {
+    animation: animate7000 35s linear infinite;
+  }
+  .dynamic-background img:nth-child(13) {
+    animation: animate7000 36s linear infinite;
+  }
+  .dynamic-background img:nth-child(14) {
+    animation: animate7000 37s linear infinite;
+  }
+  .dynamic-background img:nth-child(15) {
+    animation: animate7000 38s linear infinite;
+  }
+  .dynamic-background img:nth-child(16) {
+    animation: animate7000 39s linear infinite;
+  }
+  .dynamic-background img:nth-child(17) {
+    animation: animate7000 40s linear infinite;
+  }
+  .dynamic-background img:nth-child(18) {
+    animation: animate7000 41s linear infinite;
+  }
+  .dynamic-background img:nth-child(19) {
+    animation: animate7000 42s linear infinite;
+  }
+}
+
+@keyframes animate5000 {
   0% {
     transform: scale(1) translateY(0) rotate(0deg);
   }
   100% {
     transform: scale(1) translateY(-5200px) rotate(800deg);
+  }
+}
+
+@keyframes animate7000 {
+  0% {
+    transform: scale(1) translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: scale(1) translateY(-7700px) rotate(800deg);
   }
 }
 </style>
