@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <Preloader />
     <Background />
     <div class="body">
       <Presentation />
@@ -19,7 +20,8 @@ import Experience from "./views/Experience";
 // import Banner from "./views/Banner";
 import Footer from "./views/Footer";
 import Education from "./views/Education";
-import Background from "./views/Background";
+import Background from "./components/Background";
+import Preloader from "./components/Preloader.vue";
 
 export default {
   name: "App",
@@ -31,6 +33,7 @@ export default {
     Footer,
     Education,
     Background,
+    Preloader,
   },
 };
 </script>

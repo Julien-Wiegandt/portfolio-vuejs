@@ -1,5 +1,5 @@
-<template
-  ><div class="dynamic-background">
+<template>
+  <div class="dynamic-background">
     <img src="../assets/3D_check.png" />
     <img src="../assets/3D_spotify.png" />
     <img src="../assets/3D_youtube.png" />
