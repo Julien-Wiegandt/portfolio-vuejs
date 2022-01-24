@@ -45,6 +45,7 @@ img {
 button:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
+  cursor: pointer;
 }
 button:active {
   transform: scale(0.95);

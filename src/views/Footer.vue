@@ -22,7 +22,7 @@
       <a href="https://www.linkedin.com/in/julien-wiegandt/" class="icon" target="_blank">
         <img src="../assets/3D_linkedin.png" alt="LinkedIn" />
       </a>
-      <a :href="`${publicPath}Julien_Wiegandt-resume.pdf`" class="icon" download>
+      <a :href="`${filePath}`" class="icon" download>
         <img src="../assets/3D_document.png" alt="CV" />
       </a>
     </div>
@@ -33,8 +33,12 @@
 export default {
   name: "Footer",
   data() {
+    let path = process.env.BASE_URL + "Julien_Wiegandt-cv.pdf";
+    if (localStorage.getItem("lang") === "en") {
+      path = process.env.BASE_URL + "Julien_Wiegandt-resume.pdf";
+    }
     return {
-      publicPath: process.env.BASE_URL,
+      filePath: path,
     };
   },
 };
