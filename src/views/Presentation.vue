@@ -1,6 +1,7 @@
 <template>
   <div class="presentation">
     <h1 class="title">Julien Wiegandt</h1>
+    <LanguageSelector />
     <div class="content">
       <div class="img">
         <img
@@ -17,18 +18,13 @@
 
       <div class="text">
         <p>
-          Let me introduce myself! Julien Wiegandt pleased to meet you, I am a student
-          engineer in 5th year at Polytech Montpellier, France, in Computer Science and
-          Management. I'm also currently doing a master's degree in software engineering
-          at the University of Sherbrooke, Canada.
+          {{ $t("presentation1") }}
         </p>
         <p>
-          I am passionate about projects on beautiful digital tools. That's why I'm very
-          interested in web/mobile development, UX/UI design and project management.
+          {{ $t("presentation2") }}
         </p>
         <p>
-          I love working, sports and traveling. I have lived in Germany, Tahiti, New
-          Caledonia, Congo, France and now Canada!
+          {{ $t("presentation3") }}
         </p>
       </div>
     </div>
@@ -36,8 +32,12 @@
 </template>
 
 <script>
+import LanguageSelector from "../components/LanguageSelector.vue";
 export default {
   name: "Presentation",
+  components: {
+    LanguageSelector,
+  },
 };
 </script>
 
@@ -83,7 +83,7 @@ p {
 .title {
   margin: 0;
   padding-top: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 26px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -114,6 +114,9 @@ p {
   p {
     padding: 10px;
     font-size: small;
+  }
+  .img {
+    margin-top: 26px;
   }
 }
 </style>

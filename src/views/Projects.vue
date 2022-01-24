@@ -1,40 +1,40 @@
 <template>
   <div class="projects">
-    <Banner title="Projects" image="projects.png" />
+    <Banner :title="$t('banner_projects')" image="projects.png" />
     <div class="content">
       <div class="column__left">
         <ProjectCard
-          title="Real Estate"
-          description="Android app to manage real estate offers. Based on our Node.js REST API and the Google Maps API."
+          :title="$t('realestate_project_title')"
+          :description="$t('realestate_project_content')"
           image="project-realestate.png"
           link="https://github.com/Julien-Wiegandt/RealEstate-android-app"
         />
         <ProjectCard
-          title="Split Pay"
-          description="Complex Java application to easily pay a bill with several people."
+          :title="$t('splitpay_project_title')"
+          :description="$t('splitpay_project_content')"
           image="project-splitpay.png"
           link="https://github.com/Julien-Wiegandt/SplitPay"
         />
       </div>
       <div class="column__center">
         <ProjectCard
-          title="To Do React"
-          description="React frontend application using my to do list REST API."
+          :title="$t('todoreact_project_title')"
+          :description="$t('todoreact_project_content')"
           image="project-todo-react-redux.png"
           margin-top="120"
           link="https://wiegandt-todo-node-react.herokuapp.com/"
         />
         <ProjectCard
-          title="Find BS"
-          description="Django fullstack application to connect parents and babysitters."
+          :title="$t('findbs_project_title')"
+          :description="$t('findbs_project_content')"
           image="project-findbs.png"
           link="https://findbs.herokuapp.com/"
         />
       </div>
       <div class="column__right">
         <ProjectCard
-          title="To Do API"
-          description="Node.js Sequelize PostgreSQL backend application providing secure REST API."
+          :title="$t('todoapi_project_title')"
+          :description="$t('todoapi_project_content')"
           image="project-todo-nesp-api.png"
           link="https://todo-node-express-postgresql.herokuapp.com/api-docs/"
         />

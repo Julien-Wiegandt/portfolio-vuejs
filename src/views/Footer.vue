@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p class="title">Contact</p>
+    <p class="title">{{ $t("banner_contact") }}</p>
     <img src="../assets/contact.png" alt="contact image" class="dsc__img" />
     <div class="icons">
       <a href="mailto:julienwiegandt@gmail.com" class="icon">

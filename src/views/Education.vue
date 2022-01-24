@@ -1,31 +1,31 @@
 <template>
   <div class="education">
-    <Banner title="Education" image="formation.png" />
+    <Banner :title="$t('banner_education')" image="formation.png" />
     <div class="content">
       <EducationCard
-        title="Sherbrooke University"
+        :title="$t('sherbrooke_title')"
         image="formation-universite-sherbrooke-2.jpg"
-        diploma="Master's Degree in Software Engineering"
-        date="2021-2022"
-        description="I am doing a double degree in Sherbrooke, Canada. I am deepening my knowledge of software engineering in order specialize in this field. This international experience is a great opportunity to discover the culture, the work in companies and the beautiful Canadian landscapes."
+        :diploma="$t('sherbrooke_diploma')"
+        :date="$t('sherbrooke_date')"
+        :description="$t('sherbrooke_content')"
         link="https://www.usherbrooke.ca/admission/programme/651/maitrise-en-genie-logiciel"
       />
       <img src="../assets/icon-arrow-up.png" />
       <EducationCard
-        title="Polytech Montpellier"
+        :title="$t('polytech_title')"
         image="formation-polytech.png"
-        diploma="Engineer in Computer Science & Management"
-        date="2019-2022"
-        description="I am in my 5th year of engineering school in the field of Computer Science and Management. I am learning to think before acting, to solve problems in general but especially to increase my knowledge in computer science and project management."
+        :diploma="$t('polytech_diploma')"
+        :date="$t('polytech_date')"
+        :description="$t('polytech_content')"
         link="https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/informatique-et-gestion"
       />
       <img src="../assets/icon-arrow-up.png" />
       <EducationCard
-        title="Blagnac University Institute of Technology"
+        :title="$t('iut_title')"
         image="formation-iut-blagnac.png"
-        diploma="Associate Degree in Computer Science & Management"
-        date="2017-2019"
-        description="I learned the main programming languages by participating in many team projects. I was admitted in 'English class' which allowed me to take some courses in English."
+        :diploma="$t('iut_diploma')"
+        :date="$t('iut_date')"
+        :description="$t('iut_content')"
         link="https://www.iut-blagnac.fr/fr/formations/dut-informatique"
       />
     </div>

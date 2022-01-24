@@ -1,42 +1,42 @@
 <template>
   <div class="experience">
-    <Banner title="Experience" image="experience.png" />
+    <Banner :title="$t('banner_experience')" image="experience.png" />
     <div class="content">
       <ExperienceCard
         image="experience-codein.png"
-        title="Frontend React developer"
-        company="Codéin - Internship"
-        date="June 2021 - 3 month"
-        location="Montpellier, Occitanie, France"
-        description="I realized 90% of the new web interface of the personnel management tool at OPP BTP (France) in React TypeScript."
+        :title="$t('exp4_title')"
+        :company="$t('exp4_company')"
+        :date="$t('exp4_date')"
+        :location="$t('exp4_location')"
+        :description="$t('exp4_content')"
       />
       <span class="line" />
       <ExperienceCard
         image="experience-agence-regionale-de-sante.png"
-        title="Head of a toll-free number"
-        company="Agence régionale de santé - Summer Assistant"
-        date="July 2019 - 1 month"
-        location="Montpellier, Occitanie, France"
-        description="Responsible for a toll-free number concerning high arsenic levels in the Aude."
+        :title="$t('exp3_title')"
+        :company="$t('exp3_company')"
+        :date="$t('exp3_date')"
+        :location="$t('exp3_location')"
+        :description="$t('exp3_content')"
       />
       <span class="line" />
       <ExperienceCard
         image="experience-aip-primeca.png"
-        title="Machine park administrator"
-        company="AIP-PRIMECA - Internship"
-        date="April 2019 - 2 month"
-        location="Toulouse, Occitanie, France"
-        description="I saved 30% of work time for the company's engineers, by implementing an OS image deployment tool (FOG project) on the machine park."
+        :title="$t('exp2_title')"
+        :company="$t('exp2_company')"
+        :date="$t('exp2_date')"
+        :location="$t('exp2_location')"
+        :description="$t('exp2_content')"
         margin-top="18"
       />
       <span class="line" />
       <ExperienceCard
         image="experience-societe-generale.png"
-        title="Multi-skilled assistant"
-        company="Société Générale - Summer assistant"
-        date="July 2019 - 1 month"
-        location="Montpellier, Occitanie, France"
-        description="Handling of clients with irregularities, verification of legal documents."
+        :title="$t('exp1_title')"
+        :company="$t('exp1_company')"
+        :date="$t('exp1_date')"
+        :location="$t('exp1_location')"
+        :description="$t('exp1_content')"
       />
     </div>
   </div>

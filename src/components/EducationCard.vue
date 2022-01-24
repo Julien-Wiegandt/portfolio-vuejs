@@ -14,7 +14,7 @@
       <p class="description">{{ description }}</p>
     </div>
     <div class="footer">
-      <a :href="link" class="link">Education details</a>
+      <a :href="link" class="link" target="_blank">{{ $t("details_education") }}</a>
     </div>
   </div>
 </template>
