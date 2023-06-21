@@ -40,7 +40,7 @@
       };
     },
   },methods: {
-        openLink: function() {
+    openLink: function () {
           window.open(this.link,'_blank');
         }
     }};

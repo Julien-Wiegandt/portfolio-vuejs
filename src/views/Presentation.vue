@@ -3,6 +3,8 @@
     <h1 class="title">Julien Wiegandt</h1>
     <LanguageSelector />
     <div class="content">
+      <div></div>
+
       <div class="img">
         <img
           src="../assets/photo_linkedin.png"
@@ -46,6 +48,7 @@ export default {
 p {
   font-family: "Roboto";
   font-weight: 400;
+  font-size: medium;
   text-align: start;
 }
 .presentation {
@@ -77,6 +80,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   margin-top: 40px;
+  width: 100%;
 }
 .text {
   width: 410px;
@@ -106,31 +110,21 @@ p {
   transition: opacity 0.75s ease;
 }
 
-@media screen and (max-width: 600px) {
-  .content {
-    width: 90%;
-  }
-}
-
 @media screen and (max-width: 700px) {
   .content {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
   }
   .text {
     margin-top: 20px;
-    width: 100%;
+    width: 80%;
     padding: 0;
   }
   p {
     padding: 10px;
     font-size: small;
-  }
-  .img {
-    margin-top: 26px;
   }
 }
 </style>
