@@ -4,6 +4,41 @@
     <div class="content">
       <div class="column__left">
         <ProjectCard
+          :title="$t('waalaxy_project_title')"
+          :description="$t('waalaxy_project_content')"
+          image="project-waalaxy.png"
+          link="https://www.waalaxy.com/?o=noztncwxmjyr"
+        />
+        <ProjectCard
+          :title="$t('todoreact_project_title')"
+          :description="$t('todoreact_project_content')"
+          image="project-todo-react-redux.png"
+          link="https://wiegandt-todo-node-react.herokuapp.com/"
+        />
+        <ProjectCard
+          :title="$t('findbs_project_title')"
+          :description="$t('findbs_project_content')"
+          image="project-findbs.png"
+          link="https://findbs.herokuapp.com/"
+        />    
+      </div>
+      <div class="column__center">
+        <ProjectCard
+          :title="$t('oppbtp_project_title')"
+          :description="$t('oppbtp_project_content')"
+          image="project-oppbtp.png"
+          margin-top="120"
+          link="https://www.preventionbtp.fr/"
+        />
+        <ProjectCard
+          :title="$t('todoapi_project_title')"
+          :description="$t('todoapi_project_content')"
+          image="project-todo-nesp-api.png"
+          link="https://todo-node-express-postgresql.herokuapp.com/api-docs/"
+        />
+      </div>
+      <div class="column__right">
+        <ProjectCard
           :title="$t('realestate_project_title')"
           :description="$t('realestate_project_content')"
           image="project-realestate.png"
@@ -15,29 +50,7 @@
           image="project-splitpay.png"
           link="https://github.com/Julien-Wiegandt/SplitPay"
         />
-      </div>
-      <div class="column__center">
-        <ProjectCard
-          :title="$t('todoreact_project_title')"
-          :description="$t('todoreact_project_content')"
-          image="project-todo-react-redux.png"
-          margin-top="120"
-          link="https://wiegandt-todo-node-react.herokuapp.com/"
-        />
-        <ProjectCard
-          :title="$t('findbs_project_title')"
-          :description="$t('findbs_project_content')"
-          image="project-findbs.png"
-          link="https://findbs.herokuapp.com/"
-        />
-      </div>
-      <div class="column__right">
-        <ProjectCard
-          :title="$t('todoapi_project_title')"
-          :description="$t('todoapi_project_content')"
-          image="project-todo-nesp-api.png"
-          link="https://todo-node-express-postgresql.herokuapp.com/api-docs/"
-        />
+        
       </div>
     </div>
     <!-- <Banner title="Work In Progress" image="work-in-progress.png" /> -->
@@ -45,8 +58,8 @@
 </template>
 
 <script>
-import ProjectCard from "../components/ProjectCard";
 import Banner from "../components/Banner";
+import ProjectCard from "../components/ProjectCard";
 
 export default {
   name: "Projects",

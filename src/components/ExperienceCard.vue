@@ -1,21 +1,31 @@
 <template>
-  <div class="experience-card">
+    <div class="experience-card" @click="openLink">
+
     <img :src="require(`@/assets/${image}`)" :style="marginStyle" alt="company image" />
+
     <div class="text">
+
       <p class="title">{{ title }}</p>
+
       <p class="info">{{ company }}</p>
+
       <p class="info">{{ date }}</p>
+
       <p class="info">{{ location }}</p>
+
       <p class="description">{{ description }}</p>
+
     </div>
+
   </div>
 </template>
 
 <script>
-export default {
+    export default {
   name: "ExperienceCard",
   props: {
     image: { type: String, required: true },
+    link: { type: String, required: false},
     title: { type: String, required: true },
     company: { type: String, required: true },
     date: { type: String, required: true },
@@ -29,14 +39,16 @@ export default {
         "margin-top": `${this.marginTop}px`,
       };
     },
-  },
-};
+  },methods: {
+        openLink: function() {
+          window.open(this.link,'_blank');
+        }
+    }};
+
 </script>
 
 <style scoped>
 .experience-card {
-  /* background-color: #fafafa; */
-  background: #f7f7f7;
   width: 700px;
   height: 200px;
   margin: 40px;
@@ -44,6 +56,18 @@ export default {
   justify-content: space-around;
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background: rgb(250, 250, 250, 0.1);
+  backdrop-filter: blur(7.24267px);
+  border-radius: 12px;
+
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.link{
+  text-decoration: none;
+  color: black;
 }
 
 img {
@@ -51,6 +75,7 @@ img {
   width: 70px;
   object-fit: contain;
   margin: 20px 25px 0px 25px;
+  border-radius: 12px;
 }
 
 .text {
@@ -128,3 +153,4 @@ img {
   }
 }
 </style>
+

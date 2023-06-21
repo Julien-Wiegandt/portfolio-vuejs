@@ -41,7 +41,7 @@ export default {
   width: 60px;
   border-radius: 50px;
   position: absolute;
-  top: 10%;
+  top: 100%;
   left: 10%;
   animation: animate5000 4s linear infinite;
 }

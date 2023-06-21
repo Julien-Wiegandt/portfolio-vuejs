@@ -4,7 +4,7 @@
     <img src="../assets/contact.png" alt="contact image" class="dsc__img" />
     <div class="icons">
       <a href="mailto:julienwiegandt@gmail.com" class="icon">
-        <img src="../assets/3D_email.png" alt="Email" />
+        <img src="../assets/gmail.png" alt="Email" />
       </a>
       <a href="https://github.com/Julien-Wiegandt" class="icon" target="_blank">
         <img src="../assets/icon-github.png" alt="GitHub" />

@@ -5,7 +5,7 @@
     <div class="content">
       <div class="img">
         <img
-          src="../assets/cv_image.jpg"
+          src="../assets/photo_linkedin.png"
           alt="Julien Wiegandt's photography"
           class="img-pro img--rounded"
         />
@@ -46,6 +46,7 @@ export default {
 p {
   font-family: "Roboto";
   font-weight: 400;
+  text-align: start;
 }
 .presentation {
   height: auto;
@@ -75,10 +76,15 @@ p {
 .content {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 40px;
 }
 .text {
   width: 410px;
-  padding: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background: rgb(250, 250, 250, 0.1);
+  backdrop-filter: blur(7.24267px);
+  border-radius: 12px;
 }
 .title {
   margin: 0;
@@ -100,11 +106,19 @@ p {
   transition: opacity 0.75s ease;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+  .content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
   }
   .text {
     margin-top: 20px;

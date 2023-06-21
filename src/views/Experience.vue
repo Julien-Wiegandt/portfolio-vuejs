@@ -3,7 +3,18 @@
     <Banner :title="$t('banner_experience')" image="experience.png" />
     <div class="content">
       <ExperienceCard
+        image="experience-waalaxy.png"
+        link="https://www.waalaxy.com/?o=noztncwxmjyr"
+        :title="$t('exp5_title')"
+        :company="$t('exp5_company')"
+        :date="$t('exp5_date')"
+        :location="$t('exp5_location')"
+        :description="$t('exp5_content')"
+      />
+      <span class="line" />
+      <ExperienceCard
         image="experience-codein.png"
+        link="https://www.codein.fr/"
         :title="$t('exp4_title')"
         :company="$t('exp4_company')"
         :date="$t('exp4_date')"
@@ -11,7 +22,7 @@
         :description="$t('exp4_content')"
       />
       <span class="line" />
-      <ExperienceCard
+      <!-- <ExperienceCard
         image="experience-agence-regionale-de-sante.png"
         :title="$t('exp3_title')"
         :company="$t('exp3_company')"
@@ -19,9 +30,10 @@
         :location="$t('exp3_location')"
         :description="$t('exp3_content')"
       />
-      <span class="line" />
+      <span class="line" /> -->
       <ExperienceCard
         image="experience-aip-primeca.png"
+        link="https://www.aip-primeca-occitanie.fr/"
         :title="$t('exp2_title')"
         :company="$t('exp2_company')"
         :date="$t('exp2_date')"
@@ -29,7 +41,7 @@
         :description="$t('exp2_content')"
         margin-top="18"
       />
-      <span class="line" />
+      <!-- <span class="line" />
       <ExperienceCard
         image="experience-societe-generale.png"
         :title="$t('exp1_title')"
@@ -37,7 +49,7 @@
         :date="$t('exp1_date')"
         :location="$t('exp1_location')"
         :description="$t('exp1_content')"
-      />
+      /> -->
     </div>
   </div>
 </template>

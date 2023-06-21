@@ -1,25 +1,41 @@
 <template>
+
   <div class="education-card">
+
     <div class="education-card-header">
+
       <img
         class="education-card-img"
         :src="require(`@/assets/${image}`)"
         alt="education image"
       />
+
       <p class="education-card-title">{{ title }}</p>
+
     </div>
+
     <div class="content">
+
       <p class="diploma">{{ diploma }}</p>
+
       <p class="date">{{ date }}</p>
+
       <p class="description">{{ description }}</p>
+
     </div>
+
     <div class="footer">
+
       <a :href="link" class="link" target="_blank">{{ $t("details_education") }}</a>
+
     </div>
+
   </div>
+
 </template>
 
 <script>
+
 export default {
   name: "EducationCard",
   props: {
@@ -35,13 +51,21 @@ export default {
 
 <style scoped>
 .education-card {
-  background: #f7f7f7;
   width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   min-height: 400px;
   height: auto;
   margin: 40px;
-  border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background: rgb(250, 250, 250, 0.1);
+  backdrop-filter: blur(7.24267px);
+  border-radius: 12px;
+}
+
+img{
+  border-radius: 12px;
 }
 
 .education-card-header {

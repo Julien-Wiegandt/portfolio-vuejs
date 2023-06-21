@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-    <Preloader />
+    <!-- <Preloader /> -->
     <Background />
     <div class="body">
       <Presentation />
-      <Education />
-      <Projects />
       <Experience />
+      <Projects />
+      <Education />
       <!-- <Banner title="Work In Progress" image="work-in-progress.png" /> -->
       <Footer />
     </div>
@@ -14,14 +14,14 @@
 </template>
 
 <script>
+import Experience from "./views/Experience";
 import Presentation from "./views/Presentation.vue";
 import Projects from "./views/Projects";
-import Experience from "./views/Experience";
 // import Banner from "./views/Banner";
-import Footer from "./views/Footer";
-import Education from "./views/Education";
 import Background from "./components/Background";
-import Preloader from "./components/Preloader.vue";
+// import Preloader from "./components/Preloader.vue";
+import Education from "./views/Education";
+import Footer from "./views/Footer";
 
 export default {
   name: "App",
@@ -33,7 +33,7 @@ export default {
     Footer,
     Education,
     Background,
-    Preloader,
+    // Preloader,
   },
 };
 </script>
