@@ -13,14 +13,14 @@
           :title="$t('todoreact_project_title')"
           :description="$t('todoreact_project_content')"
           image="project-todo-react-redux.png"
-          link="https://wiegandt-todo-node-react.herokuapp.com/"
+          link="https://github.com/Julien-Wiegandt/todo-node-react"
         />
         <ProjectCard
           :title="$t('findbs_project_title')"
           :description="$t('findbs_project_content')"
           image="project-findbs.png"
           link="https://findbs.herokuapp.com/"
-        />    
+        />
       </div>
       <div class="column__center">
         <ProjectCard
@@ -34,7 +34,7 @@
           :title="$t('todoapi_project_title')"
           :description="$t('todoapi_project_content')"
           image="project-todo-nesp-api.png"
-          link="https://todo-node-express-postgresql.herokuapp.com/api-docs/"
+          link="https://github.com/Julien-Wiegandt/todo-node-express-postgresql"
         />
       </div>
       <div class="column__right">
@@ -50,7 +50,6 @@
           image="project-splitpay.png"
           link="https://github.com/Julien-Wiegandt/SplitPay"
         />
-        
       </div>
     </div>
     <!-- <Banner title="Work In Progress" image="work-in-progress.png" /> -->
